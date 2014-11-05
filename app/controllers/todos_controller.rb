@@ -1,4 +1,5 @@
 class TodosController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_todo, only: [:show, :edit, :update, :destroy]
 
   # GET /todos
@@ -25,7 +26,7 @@ class TodosController < ApplicationController
   # POST /todos.json
   def create
     @todo = Todo.new(todo_params)
-
+    @todo.user_id = current_user.id
     respond_to do |format|
       if @todo.save
         format.html { redirect_to @todo, notice: 'Todo was successfully created.' }
