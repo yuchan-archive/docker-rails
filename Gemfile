@@ -40,3 +40,5 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
+gem 'bootstrap-sass', '~> 3.3.0'
+gem 'autoprefixer-rails'
