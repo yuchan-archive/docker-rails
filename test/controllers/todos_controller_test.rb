@@ -2,7 +2,13 @@ require 'test_helper'
 
 class TodosControllerTest < ActionController::TestCase
   setup do
-    @todo = todos(:one)
+      @user = User.create!(
+          :email => 'user1@test.com',
+          :password => 'abcdefgh',
+          :password_confirmation => 'abcdefgh'
+      )
+      sign_in @user
+      @todo = todos(:one)
   end
 
   test "should get index" do
