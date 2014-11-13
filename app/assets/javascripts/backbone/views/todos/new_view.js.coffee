@@ -33,5 +33,5 @@ class DockerRails.Views.Todos.NewView extends Backbone.View
     @$el.html(@template(@model.toJSON() ))
 
     this.$("form").backboneLink(@model)
-
+    
     return this
