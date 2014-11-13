@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:codebrew/backbone-rails.git
+  remote: https://github.com/codebrew/backbone-rails.git
   revision: 4c1dfba7b4f2a989bd0dbc95d5afd3fc762a0b6d
   tag: v1.1.2
   specs:

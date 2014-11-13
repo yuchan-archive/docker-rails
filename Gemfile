@@ -43,5 +43,5 @@ gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.0'
 gem 'autoprefixer-rails'
 gem 'rails_12factor'
-gem "rails-backbone", :git => 'git@github.com:codebrew/backbone-rails.git', :tag => 'v1.1.2'
+gem "rails-backbone", :git => 'https://github.com/codebrew/backbone-rails.git', :tag => 'v1.1.2'
 
