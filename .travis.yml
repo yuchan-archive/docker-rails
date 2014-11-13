@@ -1,6 +1,8 @@
 language: ruby
 rvm:
 - 2.1.4
+before_deploy:
+  - 'cp config/database.heroku.yml config/database.yml'
 deploy:
   provider: heroku
   strategy: api
