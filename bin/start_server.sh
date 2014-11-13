@@ -1,5 +1,6 @@
  #!/bin/bash
 
+cp config/database.docker.yml config/database.yml
 export RAILS_ENV=production
 export SECRET_KEY_BASE=`bundle exec rake secret`
 bundle exec rake assets:precompile
