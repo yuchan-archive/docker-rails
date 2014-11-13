@@ -3,6 +3,7 @@ rvm:
 - 2.1.4
 deploy:
   provider: heroku
+  strategy: api
   api_key:
     secure: L6RAnE32nxQ8wbPa/SPv+BMVtmG7aLHW1tsE8fg2+cML73w+3zwZAkmsgDQ8kzM2E4OGmkgbE+DH2dSyRD0xZSFWkJ4VV3hdw9OLb+GLa2gKZFPlTa4a7Px5NvMvgpkmqLrzpd9rdQ7xIuAyiny605H5dYQviPq64t/6Uh75GPk=
   app: obscure-earth-6778
