@@ -1,6 +1,12 @@
-language: ruby
+language:
+    - ruby
+    - nodejs
+
 rvm:
 - 2.1.4
+nvm:
+- 0.10.33
+
 deploy:
   provider: heroku
   strategy: api
