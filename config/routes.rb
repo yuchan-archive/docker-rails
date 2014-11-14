@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :todos
+  resources :todos, defaults: {format: :json}
   
   devise_for :users
   
