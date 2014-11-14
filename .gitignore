@@ -17,3 +17,4 @@
 
 # Ignore precompiled assets
 /public/assets
+/vendor/bundle
