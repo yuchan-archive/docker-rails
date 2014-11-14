@@ -1,11 +1,12 @@
-language:
-    - ruby
-    - nodejs
+language: ruby
 
 rvm:
 - 2.1.4
 node_js:
 - "0.10"
+env:
+  global:
+    - CI=true
 
 deploy:
   provider: heroku
