@@ -20,3 +20,4 @@
 //= require backbone/docker_rails
 //= require_tree .
 //= require bootstrap-sprockets
+//= require bootstrap-datepicker
