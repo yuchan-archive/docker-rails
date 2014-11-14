@@ -17,7 +17,7 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
-//= require backbone/docker_rails
-//= require_tree .
 //= require bootstrap-sprockets
 //= require bootstrap-datepicker
+//= require backbone/docker_rails
+//= require_tree .
